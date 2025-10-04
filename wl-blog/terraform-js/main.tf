@@ -55,8 +55,3 @@ resource "aws_s3_bucket_policy" "nextjs_bucket_policy" {
         ]
     }))
 }
-
-# Outputs
-output "bucket_name" {
-    value = aws_s3_bucket.nextjs_bucket.bucket
-}
